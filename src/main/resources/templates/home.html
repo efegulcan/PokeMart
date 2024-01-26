@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeMart</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+
+<header>
+    <h1>PokeMart</h1>
+    <img src="/images/logo.png" alt="pokemart logo">
+    <nav>
+        <ul>
+            <li><a href="/pokemons">Pokemons</a></li>
+            <li><a href="/items">Items</a></li>
+            <li><a href="/inventory">Inventory</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="product-container">
+        <div class="product" th:each="deal : ${todaysDeals}">
+            <img class="pokemon-image" th:src="@{'/images/pokemons/' + ${deal.name.toLowerCase()} + '.jpg'}" alt="Pokemon Image">
+            <div class="product-info">
+                <h3 th:text="${deal.name}"></h3>
+                <p th:text="'PokeDollars ' + ${deal.price}"></p>
+            </div>
+    </div>
+    </div>
+</main>
+
+</body>
+</html>

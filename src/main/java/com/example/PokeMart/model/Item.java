@@ -1,3 +1,4 @@
+/*
 package com.example.PokeMart.model;
 
 import jakarta.persistence.Entity;
@@ -13,4 +14,4 @@ public class Item {
     private String name;
     private String description;
     private double price;
-}
+}*/
