@@ -15,3 +15,18 @@
 - **Thymeleaf**: A modern server-side Java template engine for web and standalone environments. *Thymeleaf* is used to create dynamic and feature-rich HTML pages for the *PokeMart* user interface.
 
 - **PostgreSQL**: A robust, open-source relational database system employed to store and manage data related to Pokémon, products, and user transactions.
+
+## Features
+
+- **Product Listings:**
+  Browse and search for a wide variety of Pokémon creatures and items available for purchase.
+
+- **User Authentication:**
+  Register an account or log in securely using *Spring Security* to access personalized features.
+
+- **Shopping Cart:**
+  Add desired Pokémon and items to your shopping cart for easy checkout.
+
+- **Order History:**
+  View and track your order history to keep a record of your Pokémon acquisitions.
+
