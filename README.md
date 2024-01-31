@@ -4,12 +4,12 @@
 
 ## Technologies Used
 
-- **HTML5** ![HTML5 Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg)
-- **CSS3** ![CSS3 Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg)
-- **Java** ![Java Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg)
-- **Spring Boot** ![Spring Logo](https://www.vectorlogo.zone/logos/springio/springio-icon.svg)
-- **PostgreSQL** ![PostgreSQL Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg)
-- **Postman** ![Postman Logo](https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg)
+- **HTML5** ![HTML5 Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg =40x)
+- **CSS3** ![CSS3 Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg =40x)
+- **Java** ![Java Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg =40x)
+- **Spring Boot** ![Spring Logo](https://www.vectorlogo.zone/logos/springio/springio-icon.svg =40x)
+- **PostgreSQL** ![PostgreSQL Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg =40x)
+- **Postman** ![Postman Logo](https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg =40x)
 
 - **Java**: The core language used for the backend development, providing a solid foundation for the *PokeMart* application.
 
