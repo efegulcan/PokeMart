@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PokeMart</title>
-    <link rel="stylesheet" type="text/css" href="/style.css" th:href="@{/style.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}" />
 </head>
 <body>
 
@@ -16,19 +16,36 @@
             <li><a href="/pokemons">Pokemons</a></li>
             <li><a href="/items">Items</a></li>
             <li><a href="/inventory">Inventory</a></li>
+            <li><a href="/login">Login</a></li>
         </ul>
     </nav>
 </header>
 
 <main>
-    <div class="product-container">
-        <div class="product" th:each="deal : ${todaysDeals}">
-            <img class="pokemon-image" th:src="@{'/images/pokemons/' + ${deal.name.toLowerCase()} + '.jpg'}" alt="Pokemon Image">
-            <div class="product-info">
-                <h3 th:text="${deal.name}"></h3>
-                <p th:text="'PokeDollars ' + ${deal.price}"></p>
+    <div class="pokemon-box">
+        <h2>Pokemon Deals</h2>
+        <div class="product-container">
+            <div class="product" th:each="deal : ${todaysDeals}">
+                <img class="pokemon-image" th:src="@{'/images/pokemons/' + ${deal.name.toLowerCase()} + '.jpg'}" alt="Pokemon Image">
+                <div class="product-info">
+                    <h3 th:text="${deal.name}"></h3>
+                    <p th:text="'PokeDollars ' + ${deal.price}"></p>
+                </div>
             </div>
+        </div>
     </div>
+
+    <div class="items-box">
+        <h2>Items</h2>
+        <div class="product-container">
+            <div class="product" th:each="item : ${items}">
+                <img class="item-image" th:src="@{'/images/items/' + ${item.name.toLowerCase()} + '.jpg'}" alt="Item Image">
+                <div class="product-info">
+                    <h3 th:text="${item.name}"></h3>
+                    <p th:text="'PokeDollars ' + ${item.price}"></p>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 

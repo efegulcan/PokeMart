@@ -16,21 +16,11 @@ public class PokemonController {
     @Autowired
     private PokemonRepository pokemonRepository;
 
-    @Autowired
-    private PokemonService pokemonService;
-
     @GetMapping("/pokemons")
     public String getAllPokemons(Model model) {
         List<Pokemon> pokemons = pokemonRepository.findAll();
         model.addAttribute("pokemons", pokemons);
         return "pokemon-list.html";
-    }
-
-    @GetMapping("/")
-    public String home(Model model) {
-        List<Pokemon> todaysDeals = pokemonService.getRandomPokemons(3);
-        model.addAttribute("todaysDeals", todaysDeals);
-        return "home";
     }
 
 }

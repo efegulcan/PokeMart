@@ -8,13 +8,13 @@
 
 - **Spring Boot**: A powerful and flexible framework for building Java-based enterprise applications. *Spring Boot* simplifies the development process and allows for the rapid creation of production-ready applications.
 
-- **Spring Security**: Ensuring the security of the *PokeMart* application, *Spring Security* is employed to manage authentication and authorization, protecting user data and transactions.
+- **Spring Security**: Ensuring the security of the *PokeMart* application, *Spring Security* is employed to manage authentication and authorization, protecting trainer data and transactions.
 
 - **Spring Data JPA**: An integral part of the *Spring Data* umbrella, *Spring Data JPA* simplifies database access using the Java Persistence API (JPA). It is used to interact with the PostgreSQL database seamlessly.
 
-- **Thymeleaf**: A modern server-side Java template engine for web and standalone environments. *Thymeleaf* is used to create dynamic and feature-rich HTML pages for the *PokeMart* user interface.
+- **Thymeleaf**: A modern server-side Java template engine for web and standalone environments. *Thymeleaf* is used to create dynamic and feature-rich HTML pages for the *PokeMart* trainer interface.
 
-- **PostgreSQL**: A robust, open-source relational database system employed to store and manage data related to Pokémon, products, and user transactions.
+- **PostgreSQL**: A robust, open-source relational database system employed to store and manage data related to Pokémon, products, and trainer transactions.
 
 ## Features
 
