@@ -22,12 +22,14 @@ public class SecurityConfig {
         http
                 .authorizeRequests(authorizeRequests ->
                         authorizeRequests
-                                .requestMatchers("/", "/home", "/pokemons", "/items", "/style.css").permitAll()
+                                .requestMatchers("/", "/home", "/pokemons", "/items", "/style.css",
+                                        "/images","/images/pokemons/").permitAll()
                                 .anyRequest().authenticated()
                 )
                 .formLogin(login ->
                         login
                                 .loginPage("/login")
+                                .defaultSuccessUrl("/home", true)
                                 .permitAll()
                 )
                 .logout(logout ->
