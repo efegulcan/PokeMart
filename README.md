@@ -1,8 +1,12 @@
-# PokeMart - Your Preferred Pokémon Marketplace
+# PokeMart - Pokemon-Theme E-Commerce WebSite
 
 **PokeMart** is an E-Commerce website set in the enchanting world of Pokémon, where trainers can explore and purchase various Pokémon creatures and items to enhance their Pokémon journey. This application is built using a robust stack of technologies to provide a seamless and enjoyable shopping experience.
 
+![main](https://github.com/efegulcan/PokeMart/assets/155905283/356d4c1f-fc53-4e37-9144-8b106102ae28)
+
+
 ## Technologies Used
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring-boot" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
 
 - **Java**: The core language used for the backend development, providing a solid foundation for the *PokeMart* application.
 
